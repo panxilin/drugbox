@@ -1,0 +1,18 @@
+--cpu Cortex-M0+
+".\output\release\startup_hc32l13x.o"
+".\output\release\system_hc32l13x.o"
+".\output\release\interrupts_hc32l13x.o"
+".\output\release\main.o"
+".\output\release\ddl.o"
+".\output\release\lcd.o"
+".\output\release\lpm.o"
+".\output\release\gpio.o"
+".\output\release\sysctrl.o"
+".\output\release\rtc.o"
+".\output\release\uart.o"
+".\output\release\crd7601.o"
+".\output\release\cc3200.o"
+--library_type=microlib --strict --scatter ".\output\release\lcd_mode.sct"
+--keep=*Handler --summary_stderr --info summarysizes --map --symbols
+--info sizes --info totals
+--list ".\output\release\lcd_mode.map" -o .\output\release\lcd_mode.axf

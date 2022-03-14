@@ -1,0 +1,226 @@
+Dependencies for Project 'lcd_mode', Target 'lcd_mode_Release': (DO NOT MODIFY !)
+F (.\startup_hc32l13x.s)(0x61EF6918)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include--pd "__UVISION_VERSION SETA 520"-o .\output\release\startup_hc32l13x.o --depend .\output\release\startup_hc32l13x.d)
+F (.\common\system_hc32l13x.c)(0x61F0A8C4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\system_hc32l13x.o --omf_browse .\output\release\system_hc32l13x.crf --depend .\output\release\system_hc32l13x.d)
+I (common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+F (.\common\interrupts_hc32l13x.c)(0x61EF691D)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\interrupts_hc32l13x.o --omf_browse .\output\release\interrupts_hc32l13x.crf --depend .\output\release\interrupts_hc32l13x.d)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+F (.\source\main.c)(0x622A2966)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\main.o --omf_browse .\output\release\main.crf --depend .\output\release\main.d)
+I (.\driver\inc\lcd.h)(0x622A121B)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+I (.\driver\inc\rtc.h)(0x62217E8E)
+I (.\hardware\crd7601.h)(0x622A18F0)
+I (.\hardware\cc3200.h)(0x622A2BED)
+I (.\driver\inc\lpm.h)(0x61F0A8C4)
+I (.\driver\inc\gpio.h)(0x61F0A8C4)
+I (.\driver\inc\uart.h)(0x622A292A)
+F (.\driver\src\ddl.c)(0x61F0A8C4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\ddl.o --omf_browse .\output\release\ddl.crf --depend .\output\release\ddl.d)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+F (.\driver\src\lcd.c)(0x622A121B)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\lcd.o --omf_browse .\output\release\lcd.crf --depend .\output\release\lcd.d)
+I (.\driver\inc\lcd.h)(0x622A121B)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+I (.\driver\inc\rtc.h)(0x62217E8E)
+I (.\driver\inc\gpio.h)(0x61F0A8C4)
+F (.\driver\src\lpm.c)(0x61EF6938)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\lpm.o --omf_browse .\output\release\lpm.crf --depend .\output\release\lpm.d)
+I (.\driver\inc\lpm.h)(0x61F0A8C4)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+F (.\driver\src\gpio.c)(0x61F39443)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\gpio.o --omf_browse .\output\release\gpio.crf --depend .\output\release\gpio.d)
+I (.\driver\inc\gpio.h)(0x61F0A8C4)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+F (.\driver\src\sysctrl.c)(0x61F0A8C4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\sysctrl.o --omf_browse .\output\release\sysctrl.crf --depend .\output\release\sysctrl.d)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+F (.\driver\src\rtc.c)(0x622986B2)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\rtc.o --omf_browse .\output\release\rtc.crf --depend .\output\release\rtc.d)
+I (.\driver\inc\rtc.h)(0x62217E8E)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+F (.\driver\src\uart.c)(0x622A342A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\uart.o --omf_browse .\output\release\uart.crf --depend .\output\release\uart.d)
+I (.\driver\inc\uart.h)(0x622A292A)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+I (.\driver\inc\gpio.h)(0x61F0A8C4)
+F (.\hardware\crd7601.c)(0x622A13E2)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\crd7601.o --omf_browse .\output\release\crd7601.crf --depend .\output\release\crd7601.d)
+I (hardware\crd7601.h)(0x622A18F0)
+I (.\driver\inc\lcd.h)(0x622A121B)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
+I (.\driver\inc\rtc.h)(0x62217E8E)
+F (.\hardware\cc3200.c)(0x622A2D8E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I .\hardware-I F:\捷米机器人\药箱\控制程序\主板控制\（1）药箱主控板（实现lcd全显示）\RTE-I d:\Keil_v5\ARM\CMSIS\Include-I Device\Include-D__UVISION_VERSION="520"-o .\output\release\cc3200.o --omf_browse .\output\release\cc3200.crf --depend .\output\release\cc3200.d)
+I (hardware\cc3200.h)(0x622A2BED)
+I (.\common\base_types.h)(0x61F0A8C4)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x622A1360)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (d:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\driver\inc\uart.h)(0x622A292A)
+I (.\driver\inc\ddl.h)(0x61F0A8C4)
+I (.\common\board_stkhc32l13x.h)(0x622A1B5D)
+I (.\common\hc32l13x.h)(0x61EF691E)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (.\common\system_hc32l13x.h)(0x61EF691C)
+I (.\driver\inc\sysctrl.h)(0x61F0A8C4)
+I (.\common\interrupts_hc32l13x.h)(0x61F0A8C4)
+I (.\source\ddl_device.h)(0x61EF691A)
